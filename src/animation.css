@@ -1,0 +1,63 @@
+@keyframes ani {
+  50% {
+    transform: translateY(-1000%);
+  }
+}
+
+@keyframes ani-op {
+  50% {
+    transform: translateY(-10%);
+    opacity: .15;
+  }
+}
+
+@keyframes ani-last {
+  50% {
+    transform: translateY(-450%);
+  }
+}
+
+@keyframes ani-mini {
+  50% {
+    transform: translateY(-3700%);
+  }
+}
+
+@keyframes ani-box {
+  50% {
+    transform: skew(10deg);
+  }
+}
+@keyframes ani-test {
+  50% {
+    transform: skew(1deg);
+  }
+}
+
+
+@keyframes roll {
+  0%{
+      transform: rotate(0);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes moveY {
+  from{
+      top: 0;
+  }
+  to{
+      top: 100vh;
+  }
+}
+
+@keyframes rgba {
+  0%{
+      filter: hue-rotate(0deg);
+  }
+  100%{
+      filter: hue-rotate(360deg);
+  }
+}

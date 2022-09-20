@@ -1,0 +1,203 @@
+@media screen and (min-height: 1250px) and (max-width: 800px) {
+  .main{
+    height: 50vh;
+  }
+}
+@media screen and (max-height: 1200px) and (max-width: 800px) {
+  .main{
+    height: 70vh;
+  }
+}
+
+@media screen and (max-height: 810px) and (min-width: 750px) {
+  .main{
+    overflow: hidden;
+    height: 88vh;
+  }
+  .about-text .flex-row{
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-height: 810px) and (max-width: 400px) {
+  .main{
+    overflow: hidden;
+    height: 100vh;
+  }
+  .about-text .flex-row{
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-height: 810px) and (width: 540px) {
+  .main{
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .about-text .flex-row{
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .main > .text h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+  }
+  .main .socials img{
+    height: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .main > .text h1{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3.5rem;
+  }
+
+  .inputfield.w-6{
+    width: 28rem;
+  }
+
+  .navBar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .navBar ul{
+    display: none;
+  }
+
+  .dirt .dirt-mini{
+    display: none;
+  }
+  .main .images{
+    margin-top: 1rem;
+  }
+  .main .images img{
+    z-index: 20;
+    max-width: 8rem;
+  }
+
+  .main .images .img:nth-child(2) img{
+    display: block;
+    max-width: 12rem;
+  }
+
+  .main > .text h1{
+    font-size: 3rem;
+    max-width: 80%;
+    margin-bottom: 3rem;
+    margin-top: 4.5rem;
+  }
+
+  .main > .text p{
+    max-width: 70%;
+  }
+
+  .main .socials img{
+    height: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main > .text h1{
+    font-size: 2.5rem;
+    max-width: 90%;
+    margin-bottom: 3rem;
+    margin-top: 4.5rem;
+  }
+  .main{
+    padding: 2rem;
+  }
+  .main > .text p{
+    max-width: 90%;
+  }
+  .main .images .img:nth-child(2) img{
+    display: block;
+    max-width: 12rem;
+  }
+  .main .images img{
+    z-index: 20;
+    display: none;
+    max-width: 8rem;
+  }
+  .sponsors .faqs section{
+    min-width: 21.5rem;
+    max-width: 21.5rem;
+  }
+  .sponsors .testimony section{
+    min-width: 21.5rem;
+    max-width: 21.5rem;
+  }
+  .sponsors > .text p{
+    font-size: .8rem;
+    max-width: 100%;
+  }
+  .sponsors > .text h1{
+    font-size: 2.25rem;
+  }
+  .about-text .context section{
+    min-width: 20rem;
+    position: relative;
+  }
+  .about-text .context section:nth-child(2) p{
+    max-width: 21rem;
+    text-align: justify;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+  }
+  .sponsors .testimony section > p{
+    font-size: .8rem;
+    text-align: justify;
+    opacity: .7;
+    margin-bottom: 1rem;
+  }
+  .dirt .dirt-one{
+    margin-left: 4rem;
+  }
+  .dirt .dirt-two{
+    margin-right: 4rem;
+  }
+  .navBar .log{
+    gap: 1rem;
+    padding-right: 0rem;
+  }
+  .button{
+    cursor: pointer;
+    padding: .5rem 1rem;
+    box-shadow: 0 30px 25px rgba(0, 0, 0, .15);
+    font-size: .8rem;
+    border-radius: .3rem;
+    transition: .15s ease-in-out;
+    background-color: var(--white);
+    color: #0f40c7;
+  }
+  .about-text .flex-row img{
+    max-height: 2rem;
+  }
+  .inputfield.w-6{
+    width: 100%;
+  }
+  .contact .btx{
+    width: 100%;
+  }
+  .contact{
+    padding: 0;
+    border: none;
+  }
+  .sponsors{
+    position: relative;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .inputfield{
+    padding: 1rem;
+    font-size: .85rem;
+  }
+}
